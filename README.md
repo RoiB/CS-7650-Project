@@ -40,4 +40,8 @@ Download (http://nlp.stanford.edu/data/wordvecs/glove.6B.zip), unzip, and put gl
 
 You need to install R software environment and its packages "mclust" and "rjson".
 
+## How to use our code.
+
+Please consult main.h to get a sense of how to run the code for each model. You might need to change file names during experiment.
+
 
