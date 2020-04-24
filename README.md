@@ -1,6 +1,7 @@
 # CS-7650-Project
 muti-word bias neutralization.
 
+
 ## Installation
 
 ```
@@ -40,8 +41,15 @@ Download (http://nlp.stanford.edu/data/wordvecs/glove.6B.zip), unzip, and put gl
 
 You need to install R software environment and its packages "mclust" and "rjson".
 
-## How to use our code.
+
+## Structure of the code
 
 Please consult main.h to get a sense of how to run the code for each model. You might need to change file names during experiment.
 
+At the root of the project, you will see:
 
+data: contains data to train, validate and test our system performance.
+
+src: contains model implementations of our system, data analysis scripts and model run results.
+
+baseline: test result from baseline models.
